@@ -221,6 +221,39 @@ body{
 }
 
 
+/* Gallery styles */
+.single-gallery{
+    width: 300px;
+    flex-basis: 300px;
+    border-radius: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.gallerry-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-content: center;
+}
+
+.gallery-section{
+    max-width: 1250px;
+    margin: 60px auto;
+}
+
+.single-gallery img{
+    width:80%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+
+
+
+
 /* Responsiveness */
 @media screen and (max-width: 576px) {
    
