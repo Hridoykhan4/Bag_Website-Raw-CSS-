@@ -249,8 +249,15 @@ body{
 }
 
 
+footer{
+    background-color: rgb(216, 168, 176);
+    padding: 10px;
+    width: 100%;
+}
 
-
+footer p{
+      text-align: center;
+}
 
 
 
